@@ -1,3 +1,3 @@
-module github.com/mattn/go-nulltype
+module github.com/uoula/go-nulltype
 
-go 1.10
+go 1.19

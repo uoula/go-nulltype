@@ -16,7 +16,7 @@ Supported types:
 ## Usage
 
 ```go
-import "github.com/mattn/go-nulltype"
+import "github.com/uoula/go-nulltype"
 
 type User struct {
 	Name	nulltype.NullString `json:"name"`
@@ -103,7 +103,7 @@ err = dbmap.Insert(&p)
 ## Installation
 
 ```
-go get github.com/mattn/go-nulltype
+go get github.com/uoula/go-nulltype
 ```
 
 ## License

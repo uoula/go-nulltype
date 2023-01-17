@@ -3,7 +3,7 @@ package nulltype_test
 import (
 	"fmt"
 
-	"github.com/mattn/go-nulltype"
+	"github.com/uoula/go-nulltype"
 )
 
 type User struct {
