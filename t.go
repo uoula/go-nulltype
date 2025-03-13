@@ -58,7 +58,7 @@ func (t *T[Type]) UnmarshalJSON(data []byte) error {
 		return nil
 	}
 	t.v = true
-	return json.Unmarshal(data, t.t)
+	return json.Unmarshal(data, &t.t)
 }
 
 // Value implement driver.Valuer.
