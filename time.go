@@ -76,7 +76,7 @@ func (t *NullTime) Scan(value interface{}) error {
 		}
 
 	}
-	return nil
+	return fmt.Errorf("unsupported Scan, storing driver.Value type %T into type %T", value, t)
 }
 
 // Time return string indicated the value.
